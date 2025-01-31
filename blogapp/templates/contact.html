@@ -1,0 +1,59 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block css %}<link rel="stylesheet" type="" href='{% static "contact.css" %}'>{%endblock css%}
+{%block body%}
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">BlogPosting</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/newpost">Newpost</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/myposts">Myposts</a>
+        </li>
+        <a class="nav-link" href="{% url 'signout' %}">Logout</a>
+        </li>
+      </li>
+      <a class="nav-link" href="{% url 'contact' %}">ContactUs</a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="responsive-container-block bigContainer">
+  <div class="responsive-container-block Container">
+    <p class="text-blk heading">
+      About Me
+    </p>
+    <p class="text-blk subHeading">
+      Hello, I'm Bhanu Venkatesh, a passionate Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at Raghu Engineering College. I have a strong interest in software development, machine learning, and full-stack web development.
+
+I'm always eager to explore new technologies, work on innovative projects, and collaborate with like-minded individuals. Currently, I'm expanding my expertise in data science, deep learning, and cloud computing. My goal is to leverage AI and modern development frameworks to create impactful solutions.
+
+</p>
+    <div class="social-icons-container">
+      <a class="social-icon" href="https://www.facebook.com/share/14cANE3Smc/">
+        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png">
+      </a>
+      <a class="social-icon" href="https://www.linkedin.com/in/sanapathi-bhanu-venkatesh-57181a2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png">
+      </a>
+      <a class="social-icon" href="https://www.instagram.com/lovely.banu.330?igsh=bWVpMzBvZXZra2w0">
+        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png">
+      </a>
+      <a class="social-icon" href="#">
+        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png">
+      </a>
+    </div>
+  </div>
+</div>
+   
+  {%endblock body %}

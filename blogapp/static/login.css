@@ -1,0 +1,26 @@
+
+body{
+    background: rgb(10, 3, 152);
+background: linear-gradient(90deg, rgb(16, 6, 190) 0%, rgb(6, 32, 150) 35%, rgba(0,212,255,1) 100%);
+margin: 0px;
+padding: 0px;
+box-sizing: content-box;
+}
+.outer-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    
+}
+.login-btn{
+    background-color: blue;
+}
+.inner-div{
+    /* border: 3px solid; */
+    padding: 30px;
+    width: 40vw;
+    /* background-image: linear-gradient(); */
+    
+}

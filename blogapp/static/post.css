@@ -1,0 +1,34 @@
+body{
+     /* background-color: whitesmoke; */
+    /* background-image: linear-gradient(deg, rgb(0,212,255,1) 45%, rgb(79, 109, 241) 35%, rgba(100, 92, 239) 25%); */ 
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    /* color: white; */
+}
+.title{
+    text-align: left;
+    float: left;
+    text-transform: capitalize;
+}
+.date{
+    text-align: right;
+    float: right;
+    margin-top: 8px;
+}
+#post{
+    background-color: blue;
+    color: white;
+}
+.post-div{
+    border: 1px solid rgb(0, 0, 0,0.2);
+    /* box-shadow: 2px 2px 6px ; */
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    
+}
+.post-content{
+    margin-top: 70px;
+}
+
